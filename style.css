@@ -5,29 +5,27 @@
 /* ------------------- */
 :root {
     --font-sans: 'Inter', sans-serif;
-
-    /* Dark Theme (Default) */
-    --background: hsl(0, 0%, 100%);
-    --background-raw: 240 10% 3.9%;
-    --foreground: hsl(0, 0%, 98%);
-    --card: hsl(240, 4.8%, 9.6%);
-    --card-foreground: hsl(0, 0%, 98%);
-    --popover: hsl(0, 0%, 100%);
-    --popover-foreground: hsl(0, 0%, 98%);
-    --primary: hsl(262, 83%, 60%);
-    --primary-raw: 262 83% 60%;
-    --primary-foreground: hsl(262, 83%, 98%);
-    --secondary: hsl(0, 0%, 0%);
+    --background: hsl(0, 0%, 4%);
+    --background-raw: 0 0% 4%
+    --foreground: hsl(0, 0%, 95%);
+    --card: hsl(0, 0%, 10%);
+    --card-foreground: hsl(0, 0%, 95%);
+    --popover: hsl(0, 0%, 9%);
+    --popover-foreground: hsl(0, 0%, 95%);
+    --primary: hsl(0, 72%, 51%); 
+    --primary-raw: 0 72% 51%;
+    --primary-foreground: hsl(0, 0%, 100%);
+    --secondary: hsl(0, 0%, 20%);
     --secondary-foreground: hsl(0, 0%, 98%);
-    --muted: hsl(240, 3.7%, 15.9%);
-    --muted-foreground: hsl(240, 5%, 64.9%);
-    --accent: hsl(240, 3.7%, 15.9%);
-    --accent-foreground: hsl(0, 0%, 98%);
+    --muted: hsl(0, 0%, 15%);
+    --muted-foreground: hsl(0, 0%, 65%);
+    --accent: hsl(0, 0%, 25%);
+    --accent-foreground: hsl(0, 0%, 95%);
     --destructive: hsl(0, 62.8%, 30.6%);
     --destructive-foreground: hsl(0, 0%, 98%);
-    --border: hsl(240, 3.7%, 15.9%);
-    --input: hsl(240, 3.7%, 15.9%);
-    --ring: hsl(262, 83%, 60%);
+    --border: hsl(0, 0%, 20%);
+    --input: hsl(0, 0%, 20%);
+    --ring: hsl(0, 72%, 51%);
     --radius: 0.5rem;
 }
 
@@ -572,4 +570,5 @@ input:checked + .slider:before { transform: translateX(18px); }
     .hero-image-wrapper { order: -1; margin-bottom: 3rem; }
     .profile-image-container { width: 250px; height: 250px; }
     .footer-container { flex-direction: column; gap: 1rem; }
+
 }
