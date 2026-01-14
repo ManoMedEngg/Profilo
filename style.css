@@ -5,16 +5,21 @@
 /* ------------------- */
 :root {
     --font-sans: 'Inter', sans-serif;
+
+    /* Dark Theme Base (Red, Grey, Black) */
     --background: hsl(0, 0%, 4%);
-    --background-raw: 0 0% 4%
+    --background-raw: 0 0% 4%;
     --foreground: hsl(0, 0%, 95%);
     --card: hsl(0, 0%, 10%);
     --card-foreground: hsl(0, 0%, 95%);
     --popover: hsl(0, 0%, 9%);
     --popover-foreground: hsl(0, 0%, 95%);
+
+    /* CHANGED: Primary is now Red */
     --primary: hsl(0, 72%, 51%); 
     --primary-raw: 0 72% 51%;
     --primary-foreground: hsl(0, 0%, 100%);
+
     --secondary: hsl(0, 0%, 20%);
     --secondary-foreground: hsl(0, 0%, 98%);
     --muted: hsl(0, 0%, 15%);
@@ -25,6 +30,8 @@
     --destructive-foreground: hsl(0, 0%, 98%);
     --border: hsl(0, 0%, 20%);
     --input: hsl(0, 0%, 20%);
+    
+    /* CHANGED: Ring matches Red */
     --ring: hsl(0, 72%, 51%);
     --radius: 0.5rem;
 }
@@ -32,25 +39,30 @@
 [data-theme="light"] {
     --background: hsl(0, 0%, 100%);
     --background-raw: 0 0% 100%;
-    --foreground: hsl(240, 10%, 3.9%);
+    --foreground: hsl(0, 0%, 3.9%);
     --card: hsl(0, 0%, 100%);
-    --card-foreground: hsl(240, 10%, 3.9%);
+    --card-foreground: hsl(0, 0%, 3.9%);
     --popover: hsl(0, 0%, 100%);
-    --popover-foreground: hsl(240, 10%, 3.9%);
-    --primary: hsl(262, 83%, 50%);
-    --primary-raw: 262 83% 50%;
+    --popover-foreground: hsl(0, 0%, 3.9%);
+    
+    /* CHANGED: Primary Red for Light Mode */
+    --primary: hsl(0, 72%, 51%);
+    --primary-raw: 0 72% 51%;
     --primary-foreground: hsl(0, 0%, 98%);
-    --secondary: hsl(240, 4.8%, 95.9%);
-    --secondary-foreground: hsl(240, 5.9%, 10%);
-    --muted: hsl(240, 4.8%, 95.9%);
-    --muted-foreground: hsl(240, 3.8%, 46.1%);
-    --accent: hsl(240, 4.8%, 95.9%);
-    --accent-foreground: hsl(240, 5.9%, 10%);
+
+    --secondary: hsl(0, 0%, 96%);
+    --secondary-foreground: hsl(0, 0%, 9%);
+    --muted: hsl(0, 0%, 96%);
+    --muted-foreground: hsl(0, 0%, 45%);
+    --accent: hsl(0, 0%, 96%);
+    --accent-foreground: hsl(0, 0%, 9%);
     --destructive: hsl(0, 84.2%, 60.2%);
     --destructive-foreground: hsl(0, 0%, 98%);
-    --border: hsl(240, 5.9%, 90%);
-    --input: hsl(240, 5.9%, 90%);
-    --ring: hsl(240, 5.9%, 10%);
+    --border: hsl(0, 0%, 90%);
+    --input: hsl(0, 0%, 90%);
+    
+    /* CHANGED: Ring matches Red */
+    --ring: hsl(0, 72%, 51%);
 }
 
 /* Ensure key text becomes white in dark mode */
@@ -570,5 +582,4 @@ input:checked + .slider:before { transform: translateX(18px); }
     .hero-image-wrapper { order: -1; margin-bottom: 3rem; }
     .profile-image-container { width: 250px; height: 250px; }
     .footer-container { flex-direction: column; gap: 1rem; }
-
 }
