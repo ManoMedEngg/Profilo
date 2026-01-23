@@ -15,7 +15,7 @@ This repository contains the source code for my personal portfolio website. It s
 
 | **Dark Mode (Default)** | **Light Mode** |
 |:---:|:---:|
-| <img src="darktheme.png" alt="Dark Theme Preview" width="400"> | <img src="lighttheme.png" alt="Light Theme Preview" width="400"> |
+| <img src="pic/darktheme.png" alt="Dark Theme Preview" width="400"> | <img src="pic/lighttheme.png" alt="Light Theme Preview" width="400"> |
 
 ---
 
